@@ -1,0 +1,48 @@
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    }
+.child{
+    width: 23%;
+    border: 2px solid #060711;
+    box-shadow: 0px 8px 20px -8px #000000;
+    text-align: center;
+    border-radius: 10%;
+    padding-top: 1%;
+}
+.right{
+    width: 73%;
+    margin: 1%;
+    text-align: center;
+}
+.profile {
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 10%;
+              
+    } 
+.heading{
+    background-color: #33faff;
+    text-align: center;
+}
+     
+.details{ 
+    border: 2px solid #060711;
+    padding: 5%;
+    border-radius: 5%;
+    text-align: justify;
+   } 
+   
+.imagewidth{
+    width: 40px;
+   }
+   @media only screen and(min-width:360px)and(max-width:640px){
+    .child{
+        width: 80%;
+        border: 1px solid #060711;
+        padding: 1%;
+        margin: 1%;
+        box-shadow: 0px 8px 20px -8px #000000;
+        text-align: center;
+    }
+}
